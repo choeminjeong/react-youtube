@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "TAEBAEK_milkyway";
+  src: url("./fonts/TAEBAEK_milkyway.ttf");
+}
+
+@font-face {
+  font-family: "NeoDunggeunmoPro-Regular";
+  src: url("./fonts/NeoDunggeunmoPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "KCCImkwontaek";
+  src: url("./fonts/KCCImkwontaek.ttf");
+}
+
+@font-face {
+  font-family: "CROOKED";
+  src: url("./fonts/CROOKED.ttf");
+}
+
+:root{
+  --font-TAEBAEK_milkyway: "TAEBAEK_milkyway";
+  --font-NeoDunggeunmoPro-Regular: "NeoDunggeunmoPro-Regular";
+  --font-KCCImkwontaek: "KCCImkwontaek";
+  --font-CROOKED: "CROOKED";
+}
